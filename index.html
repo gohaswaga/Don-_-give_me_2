@@ -1,1 +1,25 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Настроение дня</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Какое у тебя настроение?</h1>
+    <label for="color">Выбери цвет, который тебе нравится:</label>
+    <div>
+      <input type="color" id="color" value="#ffcc00" />
+    </div>
+    <button id="check-button">Узнать настроение</button>
 
+    <div id="result" class="hidden">
+      <h2 id="mood-title"></h2>
+      <p id="mood-description"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
